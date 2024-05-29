@@ -135,9 +135,9 @@ const envConfig = env(nodeless, vercel, {});
 - [node:buffer](https://nodejs.org/api/buffer.html)  - ✅ polyfilled all exports 
 - [node:child_process](https://nodejs.org/api/child_process.html)  - 🚧 mocked using proxy 
 - [node:cluster](https://nodejs.org/api/cluster.html)  - ✅ polyfilled all exports 
-- [node:console](https://nodejs.org/api/console.html)  - ✅ polyfilled 23/25 exports 
-- [node:constants](https://nodejs.org/api/constants.html)  - ✅ polyfilled all exports 
-- [node:crypto](https://nodejs.org/api/crypto.html)  - ✅ polyfilled all exports 
+- [node:console](https://nodejs.org/api/console.html)  - ✅ polyfilled 23/24 exports 
+- [node:constants](https://nodejs.org/api/constants.html)  - ✅ polyfilled 235/252 exports 
+- [node:crypto](https://nodejs.org/api/crypto.html)  - 🚧 mocked using proxy 
 - [node:dgram](https://nodejs.org/api/dgram.html)  - ✅ polyfilled all exports 
 - [node:diagnostics_channel](https://nodejs.org/api/diagnostics_channel.html)  - 🚧 mocked using proxy 
 - [node:dns](https://nodejs.org/api/dns.html)  - 🚧 mocked using proxy 
@@ -150,7 +150,6 @@ const envConfig = env(nodeless, vercel, {});
 - [node:http2](https://nodejs.org/api/http2.html)  - ✅ polyfilled all exports 
 - [node:https](https://nodejs.org/api/https.html)  - ✅ polyfilled all exports 
 - [node:inspector](https://nodejs.org/api/inspector.html)  - ✅ polyfilled all exports 
-- [node:inspector/promises](https://nodejs.org/api/inspector.html)  - 🚧 mocked using proxy 
 - [node:module](https://nodejs.org/api/module.html)  - ✅ polyfilled 9/21 exports 
 - [node:net](https://nodejs.org/api/net.html)  - ✅ polyfilled 14/18 exports 
 - [node:os](https://nodejs.org/api/os.html)  - ✅ polyfilled all exports 
@@ -158,7 +157,7 @@ const envConfig = env(nodeless, vercel, {});
 - [node:path/posix](https://nodejs.org/api/path.html)  - 🚧 mocked using proxy 
 - [node:path/win32](https://nodejs.org/api/path.html)  - 🚧 mocked using proxy 
 - [node:perf_hooks](https://nodejs.org/api/perf_hooks.html)  - ✅ polyfilled 9/11 exports 
-- [node:process](https://nodejs.org/api/process.html)  - ✅ polyfilled 83/91 exports 
+- [node:process](https://nodejs.org/api/process.html)  - ✅ polyfilled 82/90 exports 
 - [node:punycode](https://nodejs.org/api/punycode.html)  - 🚧 mocked using proxy 
 - [node:querystring](https://nodejs.org/api/querystring.html)  - ✅ polyfilled all exports 
 - [node:readline](https://nodejs.org/api/readline.html)  - 🚧 mocked using proxy 
